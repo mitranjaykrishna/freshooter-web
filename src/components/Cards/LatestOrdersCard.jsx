@@ -20,24 +20,24 @@ const orders = [
     email: "arlene1@gmail.com",
     status: "Shipped",
   },
-  {
-    image:
-      "https://www.archanaskitchen.com/images/archanaskitchen/BasicRecipes_HOW_TO/How_To_Make_Fresh_Homemade_Yogurt_Curd.jpg",
-    name: "curd",
-    id: "7894561",
-    customer: "Marvin McKinney",
-    email: "marvin4@gmail.com",
-    status: "Processing",
-  },
-  {
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-dEE3xvtZaj0WoHd0jmiMU7_V8aduyV-ejw&s",
-    name: "milk",
-    id: "1234567",
-    customer: "Annette Black",
-    email: "black45@gmail.com",
-    status: "Cancelled",
-  },
+  // {
+  //   image:
+  //     "https://www.archanaskitchen.com/images/archanaskitchen/BasicRecipes_HOW_TO/How_To_Make_Fresh_Homemade_Yogurt_Curd.jpg",
+  //   name: "curd",
+  //   id: "7894561",
+  //   customer: "Marvin McKinney",
+  //   email: "marvin4@gmail.com",
+  //   status: "Processing",
+  // },
+  // {
+  //   image:
+  //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-dEE3xvtZaj0WoHd0jmiMU7_V8aduyV-ejw&s",
+  //   name: "milk",
+  //   id: "1234567",
+  //   customer: "Annette Black",
+  //   email: "black45@gmail.com",
+  //   status: "Cancelled",
+  // },
 ];
 
 const statusColors = {

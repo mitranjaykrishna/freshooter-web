@@ -3,7 +3,7 @@ import { Navigate, useNavigate } from "react-router";
 
 export default function Signin() {
   const navigate = useNavigate();
-  const [email, setEmail] = useState("admin@dairymasala.com");
+  const [email, setEmail] = useState("admin@freshooter.com");
   const [password, setPassword] = useState("admin123");
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -49,7 +49,7 @@ export default function Signin() {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="admin@dairymasala.com"
+            placeholder="admin@freshooter.com"
             required
             autoComplete="email"
             className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:ring-primary"

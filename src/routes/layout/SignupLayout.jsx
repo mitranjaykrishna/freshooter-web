@@ -21,7 +21,7 @@ export default function SignupLayout() {
         <div className="relative h-full w-full p-12 flex flex-col justify-center items-end">
           <div className="max-w-md bg-white/10 backdrop-blur-md p-8 rounded-xl border border-white/20 shadow-xl">
             <h2 className="text-3xl font-bold mb-4 text-white">
-              Welcome to Dairy Masala
+              Welcome to Freshooter
             </h2>
             <p className="text-white/90 text-lg mb-6">
               Manage your products, view statistics, and keep track of inventory

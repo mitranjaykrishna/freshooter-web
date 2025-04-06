@@ -17,13 +17,13 @@ export default function Dashboard() {
         <SalesChart />
         <div className="grid grid-cols-1 gap-2">
           <TotalRevenueCard />
-          <TotalOrderCard />
+          <LatestOrdersCard />
         </div>
-        <div className="flex justify-between gap-2">
+        {/* <div className="flex justify-between gap-2">
           <SaleHistoryCard />
           <TopRevenueProductCard />
-        </div>
-        <LatestOrdersCard />
+        </div> */}
+        {/* <LatestOrdersCard /> */}
       </div>
     </div>
   );

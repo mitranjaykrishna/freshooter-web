@@ -12,7 +12,7 @@ export default function DashLayout() {
     }
   }, []);
   return (
-    <div className="flex justify-between gap-4  min-h-screen w-screen pr-4 overflow-hidden bg-quaternary">
+    <div className="flex justify-between gap-3  min-h-screen w-screen pr-2 overflow-hidden bg-quaternary">
       <div className="flex flex-col w-[281.59px] flex-shrink-0 min-h-0 rounded-r-2xl bg-linear-to-b from-tertiary from-10%  to-primary  overflow-hidden">
         <HeaderLeft />
       </div>
@@ -21,7 +21,7 @@ export default function DashLayout() {
 
         <HeaderUpper />
         {/* Main Content */}
-        <div className="flex flex-col flex-1 min-h-0 rounded-lg overflow-hidden  pt-[88px]">
+        <div className="flex flex-col flex-1 min-h-0 rounded-lg overflow-hidden  pt-[62px] px-2">
           <NavLocation />
           <Outlet />
         </div>
