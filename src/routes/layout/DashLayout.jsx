@@ -21,7 +21,7 @@ export default function DashLayout() {
 
         <HeaderUpper />
         {/* Main Content */}
-        <div className="flex flex-col gap-2 flex-1 min-h-0 rounded-lg overflow-hidden  pt-[88px]">
+        <div className="flex flex-col flex-1 min-h-0 rounded-lg overflow-hidden  pt-[88px]">
           <NavLocation />
           <Outlet />
         </div>

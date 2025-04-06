@@ -9,7 +9,7 @@ import TopRevenueProductCard from "../components/Cards/TopRevenueProductCard";
 
 export default function Dashboard() {
   return (
-    <div className="relative flex flex-col gap-2.5 h-full pb-2 overflow-y-auto">
+    <div className="relative flex flex-col gap-2.5 h-full py-2 overflow-y-auto">
       <div className=" rounded-b-2xl bg-quaternary">
         <StatsCardList />
       </div>

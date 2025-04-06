@@ -6,7 +6,7 @@ import { useNavigate } from "react-router";
 export default function HeaderUpper() {
   const navigate = useNavigate();
   return (
-    <div className="absolute top-0 flex justify-between items-center w-full border-b border-subText px-2 py-1 min-h-[80px]">
+    <div className="absolute top-0 flex justify-between items-center w-full  px-2 py-1 min-h-[80px]">
       <div className="flex flex-col gap-1">
         <span className=" text-xl font-semibold text-primary">
           Welcome Alex
