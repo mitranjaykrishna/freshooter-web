@@ -17,9 +17,9 @@ const stats = [
   {
     icon: <Users className="text-white w-5 h-5" />, // Visitors icon
     iconBg: "bg-yellow-400",
-    label: "Total Visitors",
+    label: "Total customer ",
     value: "54,156",
-    description: "We have total +3.5k visitor...",
+    description: "We have total +3.5k customer ...",
   },
   {
     icon: <ClipboardList className="text-white w-5 h-5" />, // Orders icon
