@@ -72,7 +72,7 @@ const LatestOrdersCard = () => {
           </thead>
           <tbody className="text-sm text-gray-700">
             {orders.map((order, index) => (
-              <tr key={index} className="border-t">
+              <tr key={index} className="border-t border-quaternary">
                 <td className="py-4 px-3 flex items-center gap-3">
                   <img
                     src={order.image}
