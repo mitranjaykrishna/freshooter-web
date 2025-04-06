@@ -1,7 +1,13 @@
-import React from "react";
-import { Outlet } from "react-router";
+import React, { useEffect } from "react";
+import { Outlet, useNavigate } from "react-router";
 
 export default function SignupLayout() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (localStorage.getItem("token")) {
+      navigate("/dashboard");
+    }
+  }, []);
   return (
     <div className="flex flex-col lg:flex-row w-screen h-screen">
       {/* Left Panel */}

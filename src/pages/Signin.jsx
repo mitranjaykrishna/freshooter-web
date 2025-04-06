@@ -3,8 +3,8 @@ import { Navigate, useNavigate } from "react-router";
 
 export default function Signin() {
   const navigate = useNavigate();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("admin@dairymasala.com");
+  const [password, setPassword] = useState("admin123");
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -16,6 +16,8 @@ export default function Signin() {
     setTimeout(() => {
       console.log("Email:", email);
       console.log("Password:", password);
+      localStorage.setItem("token", email);
+      navigate("/dashboard");
       setLoading(false);
     }, 2000);
   };

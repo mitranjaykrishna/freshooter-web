@@ -6,7 +6,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 const TopRevenueProductCard = () => {
   const data = {
-    labels: ["Men & Women Jeans", "Men & Women T-shirts", "Men & Women Shoes"],
+    labels: ["Masala", "Milk", "Curd"],
     datasets: [
       {
         data: [120000, 60000, 60000],

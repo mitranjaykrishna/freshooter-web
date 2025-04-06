@@ -3,7 +3,8 @@ import { Download } from "lucide-react";
 
 const orders = [
   {
-    image: "/images/jacket.jpg",
+    image:
+      "https://www.allrecipes.com/thmb/b6Rab3PSMtgQS9Kjpw0yGdzAmj4=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/AR-RM-142967-easy-garam-masala-ddmfs-3x4-5ecfc3a6b289496ea57d000853ad31fd.jpg",
     name: "Masala",
     id: "4859578",
     customer: "Amit Shah",
@@ -11,7 +12,8 @@ const orders = [
     status: "Delivered",
   },
   {
-    image: "/images/trousers.jpg",
+    image:
+      "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2020/02/324844_2200-1200x628.jpg",
     name: "oil",
     id: "4875566",
     customer: "Arlene McCoy",
@@ -19,7 +21,8 @@ const orders = [
     status: "Shipped",
   },
   {
-    image: "/images/saree.jpg",
+    image:
+      "https://www.archanaskitchen.com/images/archanaskitchen/BasicRecipes_HOW_TO/How_To_Make_Fresh_Homemade_Yogurt_Curd.jpg",
     name: "curd",
     id: "7894561",
     customer: "Marvin McKinney",
@@ -27,7 +30,8 @@ const orders = [
     status: "Processing",
   },
   {
-    image: "/images/loafers.jpg",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-dEE3xvtZaj0WoHd0jmiMU7_V8aduyV-ejw&s",
     name: "milk",
     id: "1234567",
     customer: "Annette Black",
